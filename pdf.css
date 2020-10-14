@@ -1,0 +1,45 @@
+body, p, ol, ul, li, em, strong, b {
+    color: #111 !important;
+}
+body {
+	font-family: Inter, Helvetica, "Helvetica Neue", sans;
+	background: white;
+}
+  .exported-note-title {
+    border: 0;
+	text-align: center
+}
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+    border: 0
+}
+a {
+    color: var(--primary);
+    text-decoration:none
+}
+a code, a:link code, a:visited code {
+    color: #EC0868
+}
+.code, code, pre, .inline-code, .mce-content-body code {
+	border-radius: 5px !important;
+    outline: none;
+    border: none !important;
+	background: #EEE !important;
+	color: black
+}
+table, pre {
+    page-break-inside: avoid
+}
+pre {
+	word-wrap: break-word
+}
+.footnotes-sep {
+    border-bottom: 2px dashed #EC0868 !important
+}
+blockquote {
+  color: #111;
+  font: italic 1em "Playfair Display", Merriweather, Times, serif;
+  margin: 1em 0;
+  border-left: 4px dashed #EC0868;
+  padding-left: .6em
+}
