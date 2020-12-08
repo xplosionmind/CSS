@@ -1,3 +1,13 @@
+/* **********************************************************************************
+ *																					*
+ * 						Custom CSS for MarkdownHere extension						*
+ *																					*
+ *		by xplosionmind | https://tommi.space | https://github.com/xplosionmind		*
+ *						this code is published under CC0 license					*
+ *																					*
+ *																					*
+ * *********************************************************************************/
+
 /*
  * NOTE:
  * - The use of browser-specific styles (-moz-, -webkit-) should be avoided.
@@ -8,7 +18,8 @@
  *   must be explicitly applied to all elements -- stylesheets get stripped.)
  */
 
-@import url("https://xplosionmind.tk/fonts/inter/inter.css");
+@import url("https://assets.tommi.space/fonts/inter/inter.css");
+@import url("https://assets.tommi.space/fonts/ubuntu-mono/ubuntu-mono.css");
 
 /* This is the overall wrapper, it should be treated as the `body` section. */
 .markdown-here-wrapper {
@@ -18,15 +29,14 @@
 }
 
 /* To add site specific rules, you can use the `data-md-url` attribute that we
-   add to the wrapper element. Note that rules like this are used depending
-   on the URL you're *sending* from, not the URL where the recipient views it.
+   add to the wrapper element. Note that rules like this are used depending on the URL you're *sending* from, not the URL where the recipient views it.
 */
 /* .markdown-here-wrapper[data-md-url*="mail.yahoo."] ul { color: red; } */
 
-
-pre, code {
+pre,
+code {
   font-size: 0.85em;
-  font-family: "Ubuntu Mono", Consolas, Inconsolata, Courier, monospace;
+  font-family: "Ubuntu Mono", "Roboto Mono", monospace;
 }
 
 code {
@@ -200,7 +210,8 @@ table tr:nth-child(2n) {
   background-color: #F8F8F8;
 }
 
-table tr th, table tr td {
+table tr th,
+table tr td {
   font-size: 1em;
   border: 1px solid #CCC;
   margin: 0;
@@ -211,4 +222,3 @@ table tr th {
  font-weight: bold;
   background-color: #F0F0F0;
 }
-

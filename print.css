@@ -49,3 +49,13 @@ blockquote {
   border-left: 4px dashed #EC0868;
   padding-left: .6em;
 }
+
+.date,
+.cite,
+.right {
+text-align: right;
+}
+
+.cite::before {
+content: '~ ';
+}

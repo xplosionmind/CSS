@@ -1,0 +1,79 @@
+:root {
+	--black-ish: #222;
+	--white-ish: #E3E3E3;
+	--dark-grey: #333;
+	--light-grey: #CCC;
+	--yellow: #FCC920;
+	--blue: #3185FC;
+	--red: #D00;
+	--green: #20CE88;
+	--razzmatazz: #EC0868;
+	--purple: #884EE1;
+
+	--yellow-gradient: linear-gradient(145deg, #DAAE1B, #FFD23E);
+	--blue-gradient: linear-gradient(145deg, #4c96ff, #226dd7);
+
+	--tiny: .2rem;
+	--tinyem: .2em;
+	--small: .5rem;
+	--smallem: .5em;
+	--regular-less: .9rem;
+	--regular: 1.1rem;
+	--regular-em: 1.1em;
+	--regular-more: 1.3rem;
+	--regular-more-em: 1.3em;
+	--big: 1.6rem;
+	--bigger: 1.8rem;
+	--twice: 2.2rem;
+	--height: 3.1rem;
+	--mastodon: 4.4rem;
+	--margin: 6.5rem;
+	--trans: .5s;
+	--quicktrans: .1s;
+	--radius-s: .4rem;
+	--radius-m: .6rem;
+	--radius-l: 1rem;
+
+	--text: var(--white-ish);
+	--background: var(--black-ish);
+}
+
+body {
+    color: var(--text) !important;
+	background: var(--background);
+	font: 1.1em Inter, Helvetica, "Helvetica Neue", sans;
+	hyphens: auto;
+}
+a {
+    color: #EC0868;
+    text-decoration:none;
+}
+a code,
+a:link code,
+a:visited code {
+    color: #EC0868
+}
+.code,
+code,
+pre,
+.inline-code,
+.mce-content-body code {
+	border-radius: 5px !important;
+    outline: none;
+    border: none !important;
+	background:  !important;
+	color: black;
+}
+pre {
+	word-wrap: break-word;
+}
+.footnotes-sep {
+    border-bottom: 5px dashed #555 !important;
+}
+blockquote {
+  color: var(--light-grey);
+  font: Times, serif;
+  margin: 1em 0;
+  border-left: 4px dashed #EC0868;
+  padding-left: .6em;
+}

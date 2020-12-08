@@ -1,0 +1,3 @@
+[submodule "joplin-theme"]
+	path = joplin-theme
+	url = https://github.com/xplosionmind/joplin-theme
