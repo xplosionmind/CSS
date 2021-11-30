@@ -9,73 +9,21 @@
  * *********************************************************************************/
 
 body {
-	background: #222;
-	color: #EEE;
-    -webkit-font-smoothing: antialiased;
-    font: normal 16px Inter, -apple-system, Helvetica, "Helvetica Neue", sans-serif;
-    margin: 0;
-}
-
-li p {
-    margin: .5em 0;
-}
-
-h1 {
-    font-size: 2.2857em;
-    line-height: .6563em;
-    margin: .6563em 0;
-}
-
-h2 {
-    font-size: 1.7143em;
-    line-height: .875em;
-    margin: .875em 0;
-}
-
-h3 {
-    font-size: 1.5em;
-    line-height: 1em;
-    margin: 1em 0;
-}
-
-h4 {
-    font-size: 1.2857em;
-    line-height: 1.1667em;
-    margin: 1.1667em 0;
-}
-
-h5 {
-    font-size: 1.15em;
-    line-height: 1.3em;
-    margin: 1.3em 0;
-}
-
-h6 {
-    font-size: 1em;
-    line-height: 1.5em;
-    margin: 1.5em 0;
+    font: normal 18px Inter, -apple-system, Helvetica, "Helvetica Neue", sans-serif;
 }
 
 body,p,td,div {
     word-wrap: break-word;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    line-height: 1.5em;
+p {
+    line-height: 1.75em;
 }
 
 a {
-    -webkit-transition: color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out;
-    -o-transition: color .2s ease-in-out;
-    -ms-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
     color: #EC0868;
     text-decoration: none;
-}
-
-a:hover {
-    color: #3593d9;
 }
 
 .footnote {
@@ -186,20 +134,12 @@ figcaption {
     bottom: -24px;
     width: 98%;
     padding: 1%;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
-
-figure:hover>figcaption {
-    /* background: rgba(255,255,255,1) */
 }
 
 .poetry pre {
     display: block;
-    font-family: Georgia, Garamond, serif !important;
+    font-family: 'EB Garamond', Garamond, serif !important;
     font-size: 110% !important;
     font-style: italic;
     line-height: 1.6em;
@@ -207,13 +147,11 @@ figure:hover>figcaption {
 }
 
 .poetry pre code {
-    font-family: Georgia, Garamond, serif !important;
+    font-family: 'EB Garamond', Garamond, serif !important;
 }
 
 blockquote p {
-    font-size: 110%;
     font-style: italic;
-    line-height: 1.6em;
 }
 
 sup,sub,a.footnote {
@@ -227,12 +165,6 @@ sup,sub,a.footnote {
 sub {
     vertical-align: sub;
     top: -1px;
-}
-
-p,h5 {
-    font-size: 1.1429em;
-    line-height: 1.3125em;
-    margin: 1.3125em 0;
 }
 
 dt,th {
@@ -269,9 +201,13 @@ table tr:nth-child(even),table td:nth-child(even) {
 .date,
 .cite,
 .right {
-text-align: right;
+    text-align: right;
 }
 
 .cite::before {
-content: '~ ';
+    content: '~ ';
+}
+
+.center {
+    text-align: center;
 }
